@@ -1,0 +1,42 @@
+body {
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+    width:80vw;
+    min-height:100vh;
+    margin:auto;
+    background-color: #4f5fb9;
+    box-shadow: inset 0px 0px 10px 3px rgba(0,0,0,0.2);
+   }
+.main-background {
+    background-color: #e9e9e9;
+    min-height:100vh;
+   }
+.centered {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   }
+.italized {
+    font-style: italic;
+    max-width: 45vw;
+    text-align: justify;
+   }
+a {
+    text-decoration: none !important;
+    color: #102abe !important;
+}
+a:hover {
+    background-color: rgb(127, 229, 255);
+    color: rgb(111, 0, 255);
+    font-size: 110%;
+}
+.donate-button {
+    width: 7vw !important;
+    height: 7vh !important;
+    background-color: gold !important;
+    border-radius: 20%;
+}
+.wIPNotice {
+    font-style: italic;
+    font-size: xx-small;
+    color: gray;
+}
